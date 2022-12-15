@@ -1,0 +1,17 @@
+/home/mustafa/Desktop/VTBackend/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
+/home/mustafa/Desktop/VTBackend/DataAccess/bin/Debug/net6.0/DataAccess.dll
+/home/mustafa/Desktop/VTBackend/DataAccess/bin/Debug/net6.0/DataAccess.pdb
+/home/mustafa/Desktop/VTBackend/DataAccess/bin/Debug/net6.0/Entity.dll
+/home/mustafa/Desktop/VTBackend/DataAccess/bin/Debug/net6.0/Entity.pdb
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CopyComplete
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.dll
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/refint/DataAccess.dll
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.pdb
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
+/home/mustafa/Desktop/VTBackend/DataAccess/bin/Debug/net6.0/DataAccess.runtimeconfig.json
+/home/mustafa/Desktop/VTBackend/DataAccess/obj/Debug/net6.0/DataAccess.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+/home/mustafa/Desktop/VTBackend/Entity/bin/Debug/net6.0/Entity.deps.json
+/home/mustafa/Desktop/VTBackend/Entity/bin/Debug/net6.0/Entity.dll
+/home/mustafa/Desktop/VTBackend/Entity/bin/Debug/net6.0/Entity.pdb
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.csproj.AssemblyReference.cache
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.GeneratedMSBuildEditorConfig.editorconfig
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.AssemblyInfoInputs.cache
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.AssemblyInfo.cs
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.csproj.CoreCompileInputs.cache
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.dll
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/refint/Entity.dll
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/Entity.pdb
+/home/mustafa/Desktop/VTBackend/Entity/obj/Debug/net6.0/ref/Entity.dll
