@@ -37,6 +37,31 @@ namespace Api.Controllers
             return Ok(obj);
         }
 
+        [HttpGet]
+        [Route("getbypassword/{password}")]
+        public IActionResult GetByPassword(string password)
+        {
+            List<Employee> employees = genericRepository.GetAll();
+            Employee employee = employees.FirstOrDefault(o => o.Password == password);
+
+            if(employee == null)
+                return NotFound();
+
+            return Ok(employee);
+        }
+
+        [HttpGet]
+        [Route("getonline")]
+        public IActionResult GetOnlineUser()
+        {
+            Employee employee = genericRepository.GetAll().FirstOrDefault(o => o.Status == "online");
+
+            if(employee == null)
+                return NotFound();
+
+            return Ok(employee);
+        }
+
         [HttpPost]
         [Route("add")]
         public IActionResult Add([FromBody] Employee employee)
@@ -46,7 +71,7 @@ namespace Api.Controllers
 
             genericRepository.Add(employee);
 
-            return Ok();
+            return Ok(employee);
         }
 
         [HttpPut]
@@ -58,7 +83,7 @@ namespace Api.Controllers
 
             genericRepository.Update(employee);
 
-            return Ok();
+            return Ok(employee);
         }
 
         [HttpDelete]
@@ -74,7 +99,7 @@ namespace Api.Controllers
 
             genericRepository.Delete(o => o.Id == deletedId);
 
-            return Ok();
+            return Ok(deletedObj);
         }
     }
 }

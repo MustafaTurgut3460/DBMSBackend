@@ -23,5 +23,8 @@ namespace Entity
 
         [StringLength(11)]
         public string Phone { get; set; }
+        
+        [StringLength(20)]
+        public string Status { get; set; }
     }
 }

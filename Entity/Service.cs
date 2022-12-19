@@ -11,7 +11,13 @@ namespace Entity
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string DeviceIds { get; set; }
+        public int DeviceId { get; set; }
+
+        [StringLength(100)]
+        public string ServiceTitle { get; set; }
+
+        [StringLength(500)]
+        public string ServiceDesc { get; set; }
 
         [StringLength(50)]
         public string DeviceStatus { get; set; }

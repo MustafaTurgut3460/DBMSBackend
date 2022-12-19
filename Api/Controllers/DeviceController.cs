@@ -37,6 +37,14 @@ namespace Api.Controllers
             return Ok(obj);
         }
 
+        [HttpGet]
+        [Route("getbystation/{id}")]
+        public IActionResult GetByStation(int id)
+        {
+            List<Device> devices = genericRepository.GetAll().Where(o => o.StationId == id).ToList();
+            return Ok(devices);
+        }
+
         [HttpPost]
         [Route("add")]
         public IActionResult Add([FromBody] Device employee)

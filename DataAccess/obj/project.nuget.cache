@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8q2mjFc34zLe1YUQAX+NnPjzCRKCTmcRW283+b8djO9P/OYoJuyE5xadicMJIGiGvyQuwO4lCx0df7pwl0e04A==",
+  "dgSpecHash": "r+xa24UvhaTbKtqeXADUXGDUaCkFlmiKVO45wuKhLUR5U3iLqM6tOobFhqmuBysYqVOumx8HpKW0Q4F2n+B59g==",
   "success": true,
   "projectFilePath": "/home/mustafa/Desktop/VTBackend/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
@@ -23,9 +23,7 @@
     "/home/mustafa/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "/home/mustafa/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/mustafa/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/home/mustafa/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/mustafa/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "/home/mustafa/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
+    "/home/mustafa/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
