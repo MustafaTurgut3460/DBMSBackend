@@ -15,6 +15,12 @@ namespace Entity
         [StringLength(50)]
         public string Name { get; set; }
 
+        [StringLength(20)]
+        public string MacAddress { get; set; }
+
+        [StringLength(20)]
+        public string IpAddress { get; set; }
+
         public int StationId { get; set; }
 
         public string Status { get; set; }

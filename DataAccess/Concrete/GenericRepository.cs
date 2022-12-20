@@ -13,6 +13,7 @@ namespace DataAccess.Concrete
 
         public void Add(T entity)
         {
+            
             dbContext.Set<T>().Add(entity);
             dbContext.SaveChanges();
         }

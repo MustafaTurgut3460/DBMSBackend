@@ -15,9 +15,13 @@ namespace Entity
         [StringLength(100)]
         public string Name { get; set; }
 
-        public int IlceId { get; set; }
+        [StringLength(50)]
+        public string Ilce { get; set; }
 
         [StringLength(1000)]
         public string Address { get; set; }
+
+        [StringLength(50)]
+        public string Il { get; set; }
     }
 }

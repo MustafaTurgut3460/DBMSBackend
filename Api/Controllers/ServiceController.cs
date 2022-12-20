@@ -18,6 +18,7 @@ namespace Api.Controllers
         [Route("getall")]
         public IActionResult GetAll()
         {
+            //
             List<Service> list = genericRepository.GetAll();
 
             return Ok(list);
@@ -46,7 +47,7 @@ namespace Api.Controllers
 
             genericRepository.Add(employee);
 
-            return Ok();
+            return Ok(employee);
         }
 
         [HttpPut]
@@ -58,7 +59,7 @@ namespace Api.Controllers
 
             genericRepository.Update(employee);
 
-            return Ok();
+            return Ok(employee);
         }
 
         [HttpDelete]
@@ -74,7 +75,7 @@ namespace Api.Controllers
 
             genericRepository.Delete(o => o.Id == deletedId);
 
-            return Ok();
+            return Ok(deletedObj);
         }
     }
 }
